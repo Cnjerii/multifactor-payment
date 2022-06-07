@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'requests',
     'authentication',
     'payment_request',
+    'sasapay',
 ]
 
 MIDDLEWARE = [

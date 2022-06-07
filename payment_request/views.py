@@ -1,10 +1,9 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 def payment(request):
-	return HttpResponse('Payment Request')
+	return render(request, 'Payment_request/index.html')
 
 def process(request):
-		return HttpResponse('process Payment')
+		return render(request, 'Payment_request/process.html')
 
 # Create your views here.

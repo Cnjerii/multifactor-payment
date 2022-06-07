@@ -1,8 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
-def authenticate(request):
-	return HttpResponse('Authenticate')
-
+def index(request):
+	return render(request,'authentication/index.html')
 
 # Create your views here.

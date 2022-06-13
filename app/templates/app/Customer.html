@@ -1,0 +1,69 @@
+{% extends 'app/main.html' %}
+
+{% block content %}
+
+<br>
+
+<div class="row">
+	<div class="col-md">
+		<div class="card card-body">
+			<h5>Customer1</h5>
+			<hr>
+			<a class="btn btn-outline-info btn-5m btn-block" href="">update customer</a>
+			<a class="btn btn-outline-danger btn-5m btn-block" href="">delete customer</a>
+
+		</div>
+	</div>
+	<div class="col-md">
+		<div class="card card-body">
+			<h5>Contact Information</h5>
+			<hr>
+			<p>Email: </p>
+			<p>Phone Number: </p>
+		</div>
+	</div>
+
+	<div class="col-md">
+		<div class="card card-body">
+			<h5>total orders</h5>
+			<hr>
+			<h1 style="text-align: center;padding: 10px"></h1>
+		</div>
+	</div>
+</div>
+
+
+<br>
+<div class="row">
+	<div class="col">
+		<div class="card card-body"></div>
+			<form method="get">
+				
+				<button class="btn btn-primary" type="submit">search</button>
+			</form>
+	</div>
+</div>
+
+
+</div>
+<br>
+
+<div class="row">
+	<div class="col-md">
+		<div class="card card-body">
+			<table class="table table-5m">
+				<tr>
+					<th>Product</th>
+					<th>Category</th>
+					<th>Date ordered</th>
+					<th>Status</th>
+					<th>update</th>
+					<th>REmove</th>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
